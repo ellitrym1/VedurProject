@@ -1,0 +1,100 @@
+@import "./components/Chat.css";
+@import "./components/Logo.css";
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.App {
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80");
+  background-size: 100%;
+  color:aliceblue;
+}
+
+.homeView {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeView .logo{
+  font-size: 12.5rem;
+}
+
+.homeView .description{
+  font-size: 2.5rem;
+}
+
+.homeView .ttm-btn{
+  padding: 6px 10px;
+  font-size: 1.75rem;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.altView {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  /* grid-gap: 2rem; */
+}
+
+.altView-gc1 .logo{
+  margin-top: 3rem;
+  font-size: 9.375rem;
+}
+
+.altView-gc1 .description{
+  font-size: 2rem;
+}
+
+.altView-gc1 .gb-btn{
+  padding: 6px 10px;
+  font-size: 1.75rem;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.av-grid {
+  margin: 8rem 4rem;
+}
+
+.homeView h1{
+
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
